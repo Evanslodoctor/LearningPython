@@ -7,6 +7,10 @@ for names in TeamApic:
 
 for steps in range(4):
     turtle.forward(100)
-    turtle.right(90)
+    turtle.right(120)
+    for steps in range(4):
+        turtle.forward(100)
+        turtle.right(360/3)
+
 
 turtle.done()
