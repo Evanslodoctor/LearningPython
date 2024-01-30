@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="cvsFiles.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Lesson11WrithingFiles.py" />
     <Compile Include="readingWritingAndCreatingAfile.py">
       <SubType>Code</SubType>
